@@ -1,0 +1,12 @@
+permissions:
+  browser:
+    - open_url
+    - search_web
+  apps:
+    - launch_app
+  system:
+    - run_shell_command
+    - close_process
+  safety:
+    - require_confirmation_for_destructive_actions: true
+    - allowed_destructive_actions: []
